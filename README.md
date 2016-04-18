@@ -1,32 +1,16 @@
-# Getting-and-Cleaning-Data
-Getting-and-Cleaning-Data-Assignment
-====================================
+Getting and Cleaning Data - Course Project
+==========================================
 
-Coursera Course: Getting and Cleaning Data
+This repository hosts the R code and documentation files for the Data Science's track course "Getting and Cleaning data", available in coursera.
 
-Assignment Submission Files
-- [run_analysis.R](https://github.com/rwstang/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)
-- [README.md](https://github.com/rwstang/Getting-and-Cleaning-Data-Assignment/blob/master/README.md)
-- [CookBook.md](https://github.com/rwstang/Getting-and-Cleaning-Data-Assignment/blob/master/CodeBook.md)
+The dataset being used is: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-Instructions
+## Files
 
-1. Checkout the code using 'git checkout https://github.com/rwstang/Getting-and-Cleaning-Data-Assignment.git YOURDIRECTORY'
+The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
-2. Download the data set, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+`CodeBook.md` describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
-3. Unzip the data set into YOURDIRECTORY and you should see a folder named UCI HAR Dataset in YOURDIRECTORY
+`run_analysis.R` contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 
-4. Load RStudio and set your working directory using setwd("YOURDIRECTORY")
-
-5. Load the R script using source("run_analysis.txt")
-
-6. Run the R script using run_analysis() and after execution of the function has finished, you will see that merged_tidy_data.txt and calculated_tidy_data.txt would have been replaced with the newest outputs.
-
-Dependencies
-
-1. The R script assumes you have 'data.table' installed using install.packages("data.table")
-
-More Information
-
-For more information on the data set, please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The output of the 5th step is called `averages_data.txt`, and uploaded in the course project's form.
